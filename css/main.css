@@ -4,7 +4,7 @@
 }
 
 body {
-    overflow-y: scroll;
+
 }
 
 h1, h2, h3, h4, h5, h6, label, input {
@@ -144,9 +144,6 @@ video::-webkit-media-controls {
     margin: 10px;
 }
 @media screen and (max-width: 794px) {
-    body {
-        overflow: hidden;
-    }
     .calc-row, .img-holder {
         flex-direction: column;
     }
@@ -155,6 +152,9 @@ video::-webkit-media-controls {
     }
     .main-page-wrapper, .main-page, .info-page, .calc-row-wrapper, .accept-button-container {
         width: 100%;
+    }
+    video {
+        width: 250px;
     }
     .disappear {
         display: none;
